@@ -1,4 +1,5 @@
-#Property Prediction Model 
+# Property Prediction Model
+
 In this project we are going to build a machine learning model which will predict the property price based on the features in the dataset.
 
 Terminology used to build the project:
