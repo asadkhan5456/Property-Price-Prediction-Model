@@ -1,20 +1,119 @@
 # Property Prediction Model
 
-In this project we are going to build a machine learning model which will predict the property price based on the features in the dataset.
+*Predict house prices in Bengaluru based on property attributes using machine learning regression techniques and thorough exploratory analysis*.
 
-Terminology used to build the project:
+---
 
-1. Data Collection: In this stage we acquired the data. We have used the dataset from Kaggle.com after which we understand the data. As the data has 9 columns and total of 13320 rows. The main feature of the data is the price column which we want to predict through our model.
-2. Data Preprocessing : In this we load the data into pandas dataframe by first importing all the required libraries for further Data Analysis and EDA.
-3. Data Analysis : After loading the data we understand the various feature of the data and find out relationship between them through statistical measure.
-4. Exploratory Data Analysis (EDA) : Here we start with Data cleaning by firstly checking for any missing value or duplicate value in the data and removing it after that we perform feature engineering methods such as one-hot encoding to remove outliers.
-5. Model Development: Once the data was cleaned and outliers were handled the data was ready for further operation we then split the data into training and testing data, where we feed the training data to Machine learning model and train it and then test the model with the test data.
-6. GridSearch CV : We feed our training data to different Machine learning model and find out which model has the best accuracy. And then we test the model.
+## Project Overview
 
-Library used:
-1. Pandas and Numpy [Data cleaning and EDA]
-2. Matplotlib [Data Visualization]
-3. Sklearn [Machine learning model development]
+Real_Estate_Price_Prediction aims to develop a predictive model for house prices in Bengaluru, India, by leveraging historical real estate data and applying regression algorithms.
+
+---
+
+## Data Story
+
+### Aim & Goal
+
+- **Aim**: Build an accurate model to predict real estate prices in Bengaluru.
+
+- **Goal**: Identify key factors influencing price and optimize model performance using feature engineering and hyperparameter tuning.
+
+### Problem Statement
+
+Rapidly changing real estate markets make pricing predictions challenging. Stakeholders need reliable models to estimate property values based on features like location, size, and amenities.
+
+### Our Approach
+
+1. **Data Ingestion & Cleaning**:
+
+- Load Bengaluru_House_Data.csv.
+
+- Handle missing values, encode categorical variables, and normalize numerical features.
+
+2. **Exploratory Data Analysis (EDA)**:
+
+- Visualize distributions of price, size (sqft), and location frequency.
+
+- Identify outliers and correlations among features.
+
+3. **Feature Engineering**:
+
+- Create new features (e.g., price per sqft, total area categories).
+
+- Perform one-hot encoding for location and other categorical fields.
+
+4. **Model Training & Tuning**:
+
+- Split data into train/test sets.
+
+- Train regression models: Linear Regression, Lasso, Ridge, ElasticNet, Gradient Boosting.
+
+- Use GridSearchCV with ShuffleSplit for hyperparameter optimization.
+
+5. **Evaluation & Insights**:
+
+- Compare model performance using cross-validation RMSE.
+
+- Analyze feature importances and prediction errors.
+
+
+### Key Skills & Technologies
+
+1. **Languages & Libraries**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+2. **Techniques**: Data Cleaning, EDA, Feature Engineering, Regression Modeling, Hyperparameter Tuning
+
+
+### Project Setup
+
+#### Prerequisites
+
+- Python 3.7 or higher
+
+- Jupyter Notebook
+
+- Pandas
+
+- NumPy
+
+- Matplotlib
+
+- Seaborn
+
+- Scikit-learn
+
+### Installation & Usage
+
+1. **Clone the Repository:**
+   ```bash
+    git clone https://github.com/yourusername/Real_Estate_Price_Prediction.git
+    cd Real_Estate_Price_Prediction
+
+2. ** Data File**
+Place Bengaluru_House_Data.csv in the project root.
+
+3. ** Install Dependencies**
+    ```bash
+    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+4. ** Run the Notebook**
+    
+jupyter notebook "Real_estate_Price_Prediction.ipynb"
+
+
+### License
+
+This project is licensed under the MIT License.
+
+### Data Source Credit
+
+Data sourced from Kaggle: Bengaluru House Data
+
+### Contributors
+
+## Asad Khan
+
+
 
 
 
