@@ -89,14 +89,14 @@ Rapidly changing real estate markets make pricing predictions challenging. Stake
     git clone https://github.com/yourusername/Real_Estate_Price_Prediction.git
     cd Real_Estate_Price_Prediction
 
-2. ** Data File**
+2. **Data File**
 Place Bengaluru_House_Data.csv in the project root.
 
-3. ** Install Dependencies**
+3. **Install Dependencies**
     ```bash
     pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
-4. ** Run the Notebook**
+4. **Run the Notebook**
     
 jupyter notebook "Real_estate_Price_Prediction.ipynb"
 
